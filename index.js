@@ -43,12 +43,7 @@ const App = () => {
         </label>
       </header>
 
-      <svg
-        viewBox="-6 -1 12 5"
-        width="320"
-        preserveAspectRatio="xMidYMid slice"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg viewBox="-1 -1 2 5" xmlns="http://www.w3.org/2000/svg">
         <style>
           {`
           polyline {
