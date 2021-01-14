@@ -1,0 +1,57 @@
+/* Global */
+
+:root {
+  --font-family: Comfortaa, sans-serif;
+}
+
+html,
+body,
+#root,
+.App,
+svg {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: floralwhite;
+  font-family: var(--font-family);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Header */
+
+h1 {
+  padding: 0 2rem;
+}
+
+label,
+input,
+button {
+  font-size: 1.25rem;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  margin-left: 1rem;
+}
+
+/* SVG */
+
+svg {
+  margin: 0 auto;
+}
